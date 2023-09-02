@@ -1,0 +1,8 @@
+{
+  // Format all files on save.
+  "editor.formatOnSave": true,
+  "editor.autoIndent": "advanced",
+  "editor.formatOnPaste": true,
+  "prettier.stylelintIntegration": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
