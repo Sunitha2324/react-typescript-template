@@ -25,3 +25,14 @@ export const Text = <E extends React.ElementType = 'div'>({
 type Person = { name: string; age: number; location: string }
 type QuantumPerson = Omit<Person, 'location'> // Same as next line
 // QuantumPerson = { name: string; age: number; };
+
+const AsPolymorphic = () => {
+  return (
+    <>
+      <Text size="sm" color="primary" as="div">
+        Hello
+      </Text>
+    </>
+  )
+}
+export default AsPolymorphic

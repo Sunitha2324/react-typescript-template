@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Literal from './TsPactice/Literal'
+import Literal from './TsPactice/Literal-exclude'
 import CustomeButton from './TsPactice/CustomeButton'
 import CustomeInput from './TsPactice/CustomeInput'
 import { Text } from './AsPolymorphic'

@@ -11,7 +11,7 @@ const reducer = (state, action) => {
   }
 }
 
-const ReducerTutorial = () => {
+const UseReducerHook = () => {
   const [state, dispatch] = useReducer(reducer, { count: 0, showText: true })
 
   return (
@@ -31,4 +31,4 @@ const ReducerTutorial = () => {
   )
 }
 
-export default ReducerTutorial
+export default UseReducerHook
